@@ -1,0 +1,6 @@
+---
+- name: test an instance
+  hosts: all
+  user: ubuntu
+  roles:
+   - setup #
